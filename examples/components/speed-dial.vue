@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="line">
-            <fgo-speeddial class="test" @rolledStart="start" @rolledEnd="end" :use-self-pic="true">
+            <v-speeddial class="test" @rolledStart="start" @rolledEnd="end" :use-self-pic="true">
                 <p style="paddingBottom:10px;color:#333">可选插槽插入自定义内容</p>
-            </fgo-speeddial>
+            </v-speeddial>
         </div>
         <div class="line">
             <p class='title'>函数调用</p>

@@ -5,7 +5,7 @@ import './style/index.scss';
 var SpeedDial = registerSpeedDial
 
 SpeedDial.install = function(Vue) {
-    Vue.component('fgo-speeddial', SpeedDialComponent)
+    Vue.component('v-speeddial', SpeedDialComponent)
 }
 
 SpeedDial.Component = SpeedDialComponent
