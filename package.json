@@ -1,11 +1,10 @@
 {
-  "name": "@flamingo/vue-speed-dial",
-  "version": "1.0.14",
+  "name": "@kafan/vue-speed-dial",
+  "version": "1.0.0",
   "description": "九宫格抽奖",
   "main": "lib/index.umd.min.js",
   "keyword": "speed-dial speedDial",
-  "author": "KaFan",
-  "private": false,
+  "author": "kafan",
   "license": "ISC",
   "scripts": {
     "dev": "vue-cli-service serve",

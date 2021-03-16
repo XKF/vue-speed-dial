@@ -16,9 +16,9 @@
 
 `SpeedDial`组件可添加props属性后直接插入使用，可自己在组件上添加自定义类名覆盖样式
 ```js
-import '@flamingo/vue-speed-dial/lib/index.css'
+import '@kafan/vue-speed-dial/lib/index.css'
 
-import SpeedDial from '@flamingo/vue-speed-dial'
+import SpeedDial from '@kafan/vue-speed-dial'
 
 // 全局注册
 Vue.use(SpeedDial)
@@ -83,9 +83,9 @@ export default {
 `SpeedDial`函数会返回自身实例对象，可以赋值给一个变量借以调用该实例的内置函数
 
 ```js
-import '@flamingo/vue-speed-dial/lib/index.css'
+import '@kafan/vue-speed-dial/lib/index.css'
 
-import SpeedDial from '@flamingo/vue-speed-dial'
+import SpeedDial from '@kafan/vue-speed-dial'
 
 const speedObj = SpeedDial({
     nums:3,
