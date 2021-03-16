@@ -24,10 +24,10 @@ import SpeedDial from '@flamingo/vue-speed-dial'
 Vue.use(SpeedDial)
 // 使用
 <template>
-    <fgo-speeddial class="diyClassName" @rolledStart="start" @rolledEnd="end">
+    <v-speeddial class="diyClassName" @rolledStart="start" @rolledEnd="end">
         <!-- <slot>可选插槽插入自定义内容</slot> -->
         <p style="paddingBottom:10px;color:#333">可选插槽插入自定义内容</p>
-    </fgo-speeddial>
+    </v-speeddial>
 </template> 
 
 <script>
